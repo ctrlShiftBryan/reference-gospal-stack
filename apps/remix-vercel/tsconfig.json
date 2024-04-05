@@ -17,16 +17,16 @@
     "baseUrl": ".",
     "paths": {
       "~/*": ["./app/*"],
-      "@remix-gospel-stack/ui/*": [
+      "@foo-org/ui/*": [
         "../../packages/ui/src/*"
       ],
-      "@remix-gospel-stack/ui": [
+      "@foo-org/ui": [
         "../../packages/ui/src/index"
       ],
-      "@remix-gospel-stack/internal-nobuild": [
+      "@foo-org/internal-nobuild": [
         "../../packages/internal-nobuild/src/index"
       ],
-      "@remix-gospel-stack/internal-nobuild/*": [
+      "@foo-org/internal-nobuild/*": [
         "../../packages/internal-nobuild/src/*"
       ],
     },

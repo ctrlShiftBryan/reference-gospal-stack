@@ -5,17 +5,17 @@ import {
   type MetaFunction,
 } from "@vercel/remix";
 
-import { lookUpSalesPersonForZipcode } from "@remix-gospel-stack/internal-nobuild/client";
-import { getSalesPersonDirectory } from "@remix-gospel-stack/internal-nobuild/queries.server";
-import { Button } from "@remix-gospel-stack/ui/components/button";
+import { lookUpSalesPersonForZipcode } from "@foo-org/internal-nobuild/client";
+import { getSalesPersonDirectory } from "@foo-org/internal-nobuild/queries.server";
+import { Button } from "@foo-org/ui/components/button";
 import {
   Card,
   CardContent,
   CardDescription,
   CardHeader,
   CardTitle,
-} from "@remix-gospel-stack/ui/components/card";
-import { Checkbox } from "@remix-gospel-stack/ui/components/checkbox";
+} from "@foo-org/ui/components/card";
+import { Checkbox } from "@foo-org/ui/components/checkbox";
 
 // export const config = { runtime: "edge" };
 

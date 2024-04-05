@@ -8,7 +8,7 @@ describe("Dummy test", () => {
     const salesPersons: SalesPersonDirectory = [
       {
         name: "mark",
-        email: "mark@remix-gospel-stack.com",
+        email: "mark@foo-org.com",
         zipcodes: [
           "01",
           "73",
@@ -35,7 +35,7 @@ describe("Dummy test", () => {
       },
       {
         name: "coltrane",
-        email: "coltrane@remix-gospel-stack.com",
+        email: "coltrane@foo-org.com",
         zipcodes: [
           "62",
           "59",
@@ -106,11 +106,11 @@ describe("Dummy test", () => {
           "47",
           "82",
         ],
-        email: "philippe@remix-gospel-stack.com",
+        email: "philippe@foo-org.com",
       },
       {
         name: "lance",
-        email: "lance@remix-gospel-stack.com",
+        email: "lance@foo-org.com",
         zipcodes: [
           "76",
           "27",
@@ -139,12 +139,12 @@ describe("Dummy test", () => {
       },
       {
         name: "john",
-        email: "john@remix-gospel-stack.com",
+        email: "john@foo-org.com",
         zipcodes: ["974", "976"],
       },
       {
         name: "mike",
-        email: "mike@remix-gospel-stack.com",
+        email: "mike@foo-org.com",
         zipcodes: ["971", "972", "973", "975", "984", "986", "987", "988"],
       },
     ];

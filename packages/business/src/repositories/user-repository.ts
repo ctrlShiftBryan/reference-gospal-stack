@@ -1,4 +1,4 @@
-import type { PrismaClient } from "@remix-gospel-stack/database";
+import type { PrismaClient } from "@foo-org/database";
 
 import type { User } from "../shared/dtos.ts";
 import type { UserRepository } from "./iuser-repository.ts";

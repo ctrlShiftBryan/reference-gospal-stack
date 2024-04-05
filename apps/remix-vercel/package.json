@@ -1,6 +1,6 @@
 {
   "private": true,
-  "name": "@remix-gospel-stack/remix-vercel",
+  "name": "@foo-org/remix-vercel",
   "sideEffects": false,
   "type": "module",
   "scripts": {
@@ -10,8 +10,8 @@
     "typecheck": "tsc"
   },
   "dependencies": {
-    "@remix-gospel-stack/internal-nobuild": "workspace:*",
-    "@remix-gospel-stack/ui": "workspace:*",
+    "@foo-org/internal-nobuild": "workspace:*",
+    "@foo-org/ui": "workspace:*",
     "@remix-run/css-bundle": "^2.8.0",
     "@remix-run/node": "^2.8.0",
     "@remix-run/react": "^2.8.0",
@@ -24,7 +24,7 @@
     "source-map-support": "^0.5.21"
   },
   "devDependencies": {
-    "@remix-gospel-stack/eslint-config": "workspace:*",
+    "@foo-org/eslint-config": "workspace:*",
     "@remix-run/dev": "^2.8.0",
     "@remix-run/eslint-config": "^2.8.0",
     "@types/react": "^18.2.61",

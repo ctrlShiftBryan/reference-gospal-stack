@@ -1,1 +1,1 @@
-module.exports = require("@remix-gospel-stack/eslint-config/remix");
+module.exports = require("@foo-org/eslint-config/remix");

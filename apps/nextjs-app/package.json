@@ -1,6 +1,6 @@
 {
   "private": true,
-  "name": "@remix-gospel-stack/nextjs-app",
+  "name": "@foo-org/nextjs-app",
   "version": "1.0.0",
   "scripts": {
     "dev": "next dev -p 3001",
@@ -14,9 +14,9 @@
     "react-dom": "^18.2.0"
   },
   "devDependencies": {
-    "@remix-gospel-stack/database": "workspace:*",
-    "@remix-gospel-stack/eslint-config": "workspace:*",
-    "@remix-gospel-stack/tsconfig": "workspace:*",
+    "@foo-org/database": "workspace:*",
+    "@foo-org/eslint-config": "workspace:*",
+    "@foo-org/tsconfig": "workspace:*",
     "@types/node": "^20.11.24",
     "@types/react": "^18.2.61",
     "@types/react-dom": "^18.2.18",
